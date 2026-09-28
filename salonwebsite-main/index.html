@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glow & Grace Salon — Premium Unisex Salon & Beauty Studio in Vijayawada</title>
+    <meta name="description" content="Glow & Grace Salon is a premium unisex salon and beauty studio in Vijayawada, Andhra Pradesh offering professional beauty, hair and grooming services. Portfolio demo website." />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80" tabindex="0">
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top salon-nav">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+          <i class="bi bi-stars text-gold"></i>
+          <span class="brand-text">Glow &amp; Grace</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-gold rounded-pill px-4 nav-cta" href="#booking">Book Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <header id="home" class="hero-section d-flex align-items-center">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative text-center text-white">
+        <p class="hero-tagline mb-3 reveal">Premium Unisex Salon &amp; Beauty Studio</p>
+        <h1 class="hero-title mb-4 reveal" style="color: white;">Look Good. Feel Beautiful.<br />Be Confident.</h1>
+        <p class="hero-subtitle mb-5 reveal">Professional beauty, hair and grooming services designed just for you.</p>
+        <div class="d-flex flex-wrap gap-3 justify-content-center reveal">
+          <a href="#booking" class="btn btn-gold btn-lg rounded-pill px-5">Book Appointment</a>
+          <a href="#services" class="btn btn-outline-light btn-lg rounded-pill px-5">View Services</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll down">
+        <i class="bi bi-chevron-double-down"></i>
+      </a>
+    </header>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section-padding bg-cream">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 reveal">
+            <div class="about-image-wrapper">
+              <img src="https://images.pexels.com/photos/7195809/pexels-photo-7195809.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Glow & Grace Salon reception" class="img-fluid rounded-4 shadow-lg about-img-main" />
+              <div class="about-img-badge">
+                <span class="badge-number">5+</span>
+                <span class="badge-text">Years of<br />Excellence</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 reveal">
+            <p class="section-eyebrow text-gold fw-semibold mb-2">About Us</p>
+            <h2 class="section-title mb-4">Where Beauty Meets Elegance</h2>
+            <p class="section-text mb-3">Glow &amp; Grace Salon is a fictional premium salon demo offering professional beauty, hair and grooming services in the heart of Vijayawada, Andhra Pradesh. Our mission is to make every guest look good, feel beautiful, and step out with confidence.</p>
+            <p class="section-text mb-4">From precision haircuts and luxurious hair spa treatments to bridal makeup and expert skin care, our experienced stylists and beauticians are dedicated to delivering a personalized experience in a calm, hygienic, and welcoming environment.</p>
+            <div class="row g-4">
+              <div class="col-6 col-md-3 text-center stat-card">
+                <h3 class="stat-number" data-target="500" data-suffix="+">0</h3>
+                <p class="stat-label">Happy Clients</p>
+              </div>
+              <div class="col-6 col-md-3 text-center stat-card">
+                <h3 class="stat-number" data-target="20" data-suffix="+">0</h3>
+                <p class="stat-label">Beauty Services</p>
+              </div>
+              <div class="col-6 col-md-3 text-center stat-card">
+                <h3 class="stat-number" data-target="5" data-suffix="+">0</h3>
+                <p class="stat-label">Years Experience</p>
+              </div>
+              <div class="col-6 col-md-3 text-center stat-card">
+                <h3 class="stat-number" data-target="4.9" data-suffix="" data-decimal="true">0</h3>
+                <p class="stat-label">Client Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services" class="section-padding bg-white">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">What We Offer</p>
+          <h2 class="section-title">Our Premium Services</h2>
+          <p class="section-subtitle mx-auto">Explore our wide range of professional beauty and grooming services tailored to bring out your best look.</p>
+        </div>
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-scissors"></i></div>
+                <h5 class="service-title">Haircut &amp; Styling</h5>
+                <p class="service-desc">Precision cuts and trendy styles crafted by expert stylists to suit your personality.</p>
+                <p class="service-price">Starting at ₹299</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-palette"></i></div>
+                <h5 class="service-title">Hair Coloring</h5>
+                <p class="service-desc">Global colors, highlights, and balayage using premium, ammonia-free products.</p>
+                <p class="service-price">Starting at ₹1,499</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-droplet-half"></i></div>
+                <h5 class="service-title">Hair Spa</h5>
+                <p class="service-desc">Deep-conditioning hair spa treatments to nourish, strengthen, and add shine.</p>
+                <p class="service-price">Starting at ₹699</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-emoji-smile"></i></div>
+                <h5 class="service-title">Facial</h5>
+                <p class="service-desc">Rejuvenating facials for glowing, hydrated, and refreshed skin for all types.</p>
+                <p class="service-price">Starting at ₹599</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-gem"></i></div>
+                <h5 class="service-title">Bridal Makeup</h5>
+                <p class="service-desc">Complete bridal looks with premium makeup to make your special day unforgettable.</p>
+                <p class="service-price">Starting at ₹4,999</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-hand-index-thumb"></i></div>
+                <h5 class="service-title">Manicure &amp; Pedicure</h5>
+                <p class="service-desc">Pamper your hands and feet with our relaxing nail care and grooming services.</p>
+                <p class="service-price">Starting at ₹499</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-water"></i></div>
+                <h5 class="service-title">Waxing</h5>
+                <p class="service-desc">Smooth, long-lasting waxing using gentle, skin-friendly formulations.</p>
+                <p class="service-price">Starting at ₹199</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-person-bounding-box"></i></div>
+                <h5 class="service-title">Beard Grooming</h5>
+                <p class="service-desc">Sharp beard shaping, trimming, and styling for a well-groomed, confident look.</p>
+                <p class="service-price">Starting at ₹249</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-stars"></i></div>
+                <h5 class="service-title">Party Makeup</h5>
+                <p class="service-desc">Glamorous party makeup looks that make you stand out at every celebration.</p>
+                <p class="service-price">Starting at ₹1,999</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon mb-3"><i class="bi bi-flower1"></i></div>
+                <h5 class="service-title">Skin Care</h5>
+                <p class="service-desc">Professional skin treatments including cleanup, peeling, and brightening therapies.</p>
+                <p class="service-price">Starting at ₹799</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRICING ===================== -->
+    <section id="pricing" class="section-padding bg-cream">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">Service Packages</p>
+          <h2 class="section-title">Choose Your Glow Package</h2>
+          <p class="section-subtitle mx-auto">Curated packages offering the best value for your beauty and grooming needs.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 reveal">
+            <div class="card pricing-card h-100">
+              <div class="card-body text-center p-4">
+                <h5 class="pricing-name">Basic Glow</h5>
+                <div class="pricing-price">₹999</div>
+                <ul class="pricing-features list-unstyled my-4">
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Haircut</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Hair Wash</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Basic Facial</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Styling</li>
+                </ul>
+                <a href="#booking" class="btn btn-outline-gold rounded-pill w-100">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal">
+            <div class="card pricing-card pricing-featured h-100">
+              <div class="pricing-badge">Most Popular</div>
+              <div class="card-body text-center p-4">
+                <h5 class="pricing-name">Premium Glow</h5>
+                <div class="pricing-price">₹1,999</div>
+                <ul class="pricing-features list-unstyled my-4">
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Haircut &amp; Styling</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Hair Spa</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Facial</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Manicure</li>
+                </ul>
+                <a href="#booking" class="btn btn-gold rounded-pill w-100">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal">
+            <div class="card pricing-card h-100">
+              <div class="card-body text-center p-4">
+                <h5 class="pricing-name">Bridal Beauty</h5>
+                <div class="pricing-price">₹7,999</div>
+                <ul class="pricing-features list-unstyled my-4">
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Bridal Makeup</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Hair Styling</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Skin Preparation</li>
+                  <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Trial Session</li>
+                </ul>
+                <a href="#booking" class="btn btn-outline-gold rounded-pill w-100">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section id="gallery" class="section-padding bg-white">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">Our Work</p>
+          <h2 class="section-title">Beauty Gallery</h2>
+          <p class="section-subtitle mx-auto">A glimpse into our salon ambiance and the beautiful transformations we create.</p>
+        </div>
+        <div class="row g-3 gallery-grid">
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/13068377/pexels-photo-13068377.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Salon interior" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Salon Interior</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hair coloring" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Hair Coloring</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hair styling" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Hair Styling</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/29901721/pexels-photo-29901721.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Makeup application" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Makeup</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Facial treatment" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Facial</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/5484948/pexels-photo-5484948.png?auto=compress&cs=tinysrgb&w=600" alt="Manicure session" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Manicure</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/7195800/pexels-photo-7195800.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Salon wash area" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Salon Interior</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/20695691/pexels-photo-20695691.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bridal makeup" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Bridal Makeup</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/8307357/pexels-photo-8307357.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beauty styling" class="img-fluid" />
+              <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i> Beauty Styling</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section id="testimonials" class="section-padding bg-cream">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">Client Love</p>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-subtitle mx-auto">These are fictional portfolio/demo testimonials for showcase purposes.</p>
+        </div>
+        <div class="row g-4">
+
+          <div class="col-md-4 reveal">
+            <div class="card testimonial-card h-100">
+              <div class="card-body p-4 text-center">
+                <div class="testimonial-stars mb-3">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">"Beautiful salon design and very professional service. The ambiance is so relaxing and the staff truly care about their work."</p>
+                <div class="testimonial-author mt-4">
+                  <div class="testimonial-avatar">P</div>
+                  <h6 class="mb-0">Priya Sharma</h6>
+                  <small class="text-muted">Portfolio Demo Review</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 reveal">
+            <div class="card testimonial-card h-100">
+              <div class="card-body p-4 text-center">
+                <div class="testimonial-stars mb-3">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">"Really loved the hair styling experience. The stylist understood exactly what I wanted and the result was amazing."</p>
+                <div class="testimonial-author mt-4">
+                  <div class="testimonial-avatar">A</div>
+                  <h6 class="mb-0">Ananya Reddy</h6>
+                  <small class="text-muted">Portfolio Demo Review</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 reveal">
+            <div class="card testimonial-card h-100">
+              <div class="card-body p-4 text-center">
+                <div class="testimonial-stars mb-3">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">"Clean environment and friendly staff. The facial treatment left my skin glowing for days. Highly recommend!"</p>
+                <div class="testimonial-author mt-4">
+                  <div class="testimonial-avatar">R</div>
+                  <h6 class="mb-0">Ravi Kumar</h6>
+                  <small class="text-muted">Portfolio Demo Review</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BOOKING ===================== -->
+    <section id="booking" class="section-padding bg-white">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">Book Your Visit</p>
+          <h2 class="section-title">Schedule an Appointment</h2>
+          <p class="section-subtitle mx-auto">Fill in the form below and our team will get back to you. This is a demo website — no real booking is made.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 reveal">
+            <div class="card booking-card shadow-lg">
+              <div class="card-body p-4 p-md-5">
+                <form id="bookingForm" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="fullName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter your full name" required />
+                      <div class="invalid-feedback">Please enter your full name.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="e.g. 98765 43210" pattern="[0-9+\s-]{10,15}" required />
+                      <div class="invalid-feedback">Please enter a valid phone number.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required />
+                      <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="service" class="form-label">Service <span class="text-danger">*</span></label>
+                      <select class="form-select" id="service" name="service" required>
+                        <option value="" selected disabled>Select a service</option>
+                        <option>Haircut &amp; Styling</option>
+                        <option>Hair Coloring</option>
+                        <option>Hair Spa</option>
+                        <option>Facial</option>
+                        <option>Bridal Makeup</option>
+                        <option>Manicure &amp; Pedicure</option>
+                        <option>Waxing</option>
+                        <option>Beard Grooming</option>
+                        <option>Party Makeup</option>
+                        <option>Skin Care</option>
+                        <option>Basic Glow Package</option>
+                        <option>Premium Glow Package</option>
+                        <option>Bridal Beauty Package</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a service.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="prefDate" class="form-label">Preferred Date <span class="text-danger">*</span></label>
+                      <input type="date" class="form-control" id="prefDate" name="prefDate" required />
+                      <div class="invalid-feedback">Please select a preferred date.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="prefTime" class="form-label">Preferred Time <span class="text-danger">*</span></label>
+                      <select class="form-select" id="prefTime" name="prefTime" required>
+                        <option value="" selected disabled>Select a time slot</option>
+                        <option>10:00 AM – 11:00 AM</option>
+                        <option>11:00 AM – 12:00 PM</option>
+                        <option>12:00 PM – 1:00 PM</option>
+                        <option>1:00 PM – 2:00 PM</option>
+                        <option>2:00 PM – 3:00 PM</option>
+                        <option>3:00 PM – 4:00 PM</option>
+                        <option>4:00 PM – 5:00 PM</option>
+                        <option>5:00 PM – 6:00 PM</option>
+                        <option>6:00 PM – 7:00 PM</option>
+                        <option>7:00 PM – 8:00 PM</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a preferred time.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="3" placeholder="Any special requests or notes for your appointment?"></textarea>
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                      <button type="submit" class="btn btn-gold btn-lg rounded-pill px-5">
+                        <i class="bi bi-calendar-check me-2"></i>Request Appointment
+                      </button>
+                    </div>
+                  </div>
+                </form>
+
+                <!-- Success message -->
+                <div id="bookingSuccess" class="booking-success text-center py-4 d-none">
+                  <div class="success-icon mb-3"><i class="bi bi-check-circle-fill"></i></div>
+                  <h4 class="fw-bold">Thank You!</h4>
+                  <p class="mb-0">Your appointment request has been received. This is a demo website.</p>
+                  <button class="btn btn-outline-gold rounded-pill mt-3" id="resetFormBtn">Book Another Appointment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section-padding bg-cream">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="section-eyebrow text-gold fw-semibold mb-2">Get In Touch</p>
+          <h2 class="section-title">Visit Our Salon</h2>
+          <p class="section-subtitle mx-auto">We'd love to hear from you. Reach out or drop by our salon in Vijayawada.</p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+
+          <div class="col-lg-5 reveal">
+            <div class="contact-info-card h-100">
+              <h4 class="fw-bold mb-4">Glow &amp; Grace Salon</h4>
+              <ul class="contact-list list-unstyled">
+                <li class="mb-3">
+                  <i class="bi bi-geo-alt-fill text-gold"></i>
+                  <span>Vijayawada, Andhra Pradesh, India</span>
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-telephone-fill text-gold"></i>
+                  <a href="tel:+919876543210">+91 98765 43210</a>
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-envelope-fill text-gold"></i>
+                  <a href="mailto:hello@glowandgrace.demo">hello@glowandgrace.demo</a>
+                </li>
+              </ul>
+
+              <div class="contact-hours mt-4">
+                <h6 class="fw-bold mb-3"><i class="bi bi-clock-fill text-gold me-2"></i>Opening Hours</h6>
+                <p class="mb-1">Monday – Saturday: 10:00 AM – 8:00 PM</p>
+                <p class="mb-0">Sunday: 11:00 AM – 6:00 PM</p>
+              </div>
+
+              <div class="contact-buttons mt-4 d-flex flex-wrap gap-2">
+                <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn btn-whatsapp rounded-pill">
+                  <i class="bi bi-whatsapp me-1"></i> WhatsApp
+                </a>
+                <a href="tel:+919876543210" class="btn btn-call rounded-pill">
+                  <i class="bi bi-telephone me-1"></i> Call
+                </a>
+                <a href="mailto:hello@glowandgrace.demo" class="btn btn-email rounded-pill">
+                  <i class="bi bi-envelope me-1"></i> Email
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 reveal">
+            <div class="map-wrapper h-100 rounded-4 overflow-hidden shadow">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30455.8!2d80.6!3d16.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ff5b%3A0x6e3f1e3e3e3e3e3e!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000"
+                width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Glow & Grace Salon Location - Vijayawada"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer bg-dark text-light pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4 pb-4">
+
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-brand fw-bold mb-3"><i class="bi bi-stars text-gold me-2"></i>Glow &amp; Grace Salon</h5>
+            <p class="footer-text">A fictional premium unisex salon and beauty studio in Vijayawada, offering professional beauty, hair and grooming services with a touch of elegance.</p>
+            <div class="footer-social mt-3">
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h6 class="footer-heading">Quick Links</h6>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#booking">Booking</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="footer-heading">Services</h6>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#services">Haircut &amp; Styling</a></li>
+              <li><a href="#services">Hair Coloring</a></li>
+              <li><a href="#services">Bridal Makeup</a></li>
+              <li><a href="#services">Facial &amp; Skin Care</a></li>
+              <li><a href="#services">Manicure &amp; Pedicure</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="footer-heading">Contact</h6>
+            <ul class="footer-links list-unstyled">
+              <li><i class="bi bi-geo-alt me-2 text-gold"></i>Vijayawada, AP, India</li>
+              <li><i class="bi bi-telephone me-2 text-gold"></i><a href="tel:+919876543210">+91 98765 43210</a></li>
+              <li><i class="bi bi-envelope me-2 text-gold"></i><a href="mailto:hello@glowandgrace.demo">hello@glowandgrace.demo</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <hr class="footer-divider" />
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="footer-copy mb-1">Portfolio demo — fictional brand. Built with HTML, CSS, Bootstrap 5 &amp; JavaScript.</p>
+            <p class="footer-copy mb-0">&copy; <span id="currentYear"></span> Glow &amp; Grace Salon. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="btn btn-gold rounded-circle" aria-label="Back to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
